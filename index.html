@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!--
+
+	CREATED BY ELIJAH WILSON FOR CIS255
+	http://svsu.edu/~ecwilson/cis255/proj/
+
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>~ appname ~</title>
+	<link rel="icon" href="http://placehold.it/50x50&text=app">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/weather-icons.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <p class="navbar-brand" id="title">My App</p>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+	        <li><a href="#about"><i class="fa fa-book"></i> About</a></li>
+	        <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+	        <li><a href="#blog"><i class="fa fa-file"></i> Blog</a></li>
+	        <li><a href="#faq"><i class="fa fa-comment"></i> FAQ</a></li>
+	      </ul>
+
+	      <ul class="nav navbar-nav navbar-right">
+	      	<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+	      	<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="wide" id="home">
+	  <div class="Absolute-Center" id="cool-nav">
+		  <div class="col-md-1 line"><hr></div>
+		  <div class="col-md-2 link"><a href="#blog">Blog</a></div>
+		  <div class="col-md-2 link"><a href="#about">About</a></div>
+		  <div class="col-md-2 link"><a href="#home">Home</a></div>
+		  <div class="col-md-2 link"><a href="#contact">Contact</a></div>
+		  <div class="col-md-2 link"><a href="#faq">FAQ</a></div>
+		  <div class="col-md-1 line"><hr></div>
+	  </div>
+	</div>
+
+	<div class="seafoam">
+		<div class="container">
+		  <div class="text-center">
+		  	<h1>My Awesome App</h1>
+
+		  	<div class="hidden-xs hidden-sm">
+			  	<div id="page-wrap">
+				    <img src="img/ip6+.png" id="mockup" class="img-responsive">
+
+				    <div id="l">
+				    	<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+				    	<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+				    	<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+				    </div>
+
+				    <div id="r">
+						<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+						<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+						<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+				    </div>
+			    </div>
+		    </div>
+
+		    <div class="visible-xs visible-sm">
+		    	<img src="img/ip6+.png" id="mockup" class="img-responsive">
+		    	<div class="row">
+		    		<div class="col-sm-4">
+		    			<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+		    		</div>
+		    		<div class="col-sm-4">
+		    			<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+		    		</div>
+		    		<div class="col-sm-4">
+		    			<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+		    		</div>
+		    	</div>
+		    	<div class="row">
+		    		<div class="col-sm-4">
+		    			<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+		    		</div>
+		    		<div class="col-sm-4">
+		    			<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+		    		</div>
+		    		<div class="col-sm-4">
+		    			<p><i class="fa fa-star"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, arcu a venenatis placerat, quam augue fringilla nulla, non tincidunt augue magna ut nulla.</p>
+		    		</div>
+		    	</div>
+		    </div>
+
+		    <h2>Download!</h2>
+    		<a href="#"><img src="img/app_store.svg" id="le"></a>
+    		<a href="#"><img src="img/play_store.png" id="ri"></a>
+		  </div>
+		</div><!-- /.container -->
+	</div>
+
+	<div class="orange">
+		<div class="container">
+		  <div class="text-center">
+		    <h1>Demo</h1>
+		    <div class="responsive-video">
+		    	<iframe src="https://player.vimeo.com/video/1084537" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		    </div>
+		  </div>
+		</div><!-- /.container -->
+	</div>
+
+	<div class="seafoam" id="about">
+		<div class="container">
+			<h1 class="text-center">About</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut arcu dolor, tempus eu erat sed, blandit venenatis purus. Sed et vulputate quam. Donec ornare sagittis nibh et luctus. Duis elit mi, dictum sed tempor eget, dictum et leo. Nulla efficitur ipsum sed erat pulvinar, nec ultricies leo sollicitudin. Aliquam maximus elit arcu, lacinia sagittis mauris viverra sed. In egestas ligula neque, at maximus arcu sodales eget. Nam mauris lectus, rhoncus a egestas ut, dictum non elit.</br></br>
+
+	Nulla id tincidunt urna, id laoreet est. Donec finibus odio urna, eu finibus metus pretium a. Aliquam eu rutrum velit. Fusce egestas dapibus arcu, nec auctor nibh gravida et. Cras elit neque, mattis eget faucibus sit amet, cursus auctor velit. Nulla pharetra ornare consequat. Aliquam quis enim purus.</br>
+
+	Cras porttitor condimentum nisi, at varius quam convallis vitae. Praesent non quam facilisis, euismod nunc vel, gravida enim. Duis tincidunt mollis lobortis. Ut pulvinar, magna eu molestie interdum, arcu sapien semper tellus, nec facilisis est dolor sit amet tellus. Sed sodales accumsan ex vel lacinia. Vivamus a metus sed libero efficitur commodo. In lobortis ante enim, eu posuere dolor placerat sodales. Pellentesque ultricies imperdiet augue ac posuere. In pellentesque magna id dolor vehicula, vel congue nisi sagittis. Fusce porttitor dictum velit eu mollis. Integer odio lorem, tempus et massa non, accumsan pellentesque metus. Duis pulvinar, enim eget vestibulum laoreet, erat dui ultrices ligula, fermentum tristique nulla lorem vel nibh. Aliquam id varius leo, ut pulvinar tortor. Suspendisse potenti. Curabitur vel nibh condimentum, cursus massa id, tristique urna. Curabitur vitae lectus at mauris ultricies dictum vitae id libero.</br></br>
+
+	Phasellus semper eros et mollis ultricies. Phasellus sollicitudin est felis, in luctus dolor luctus ornare. Nam tempor tristique nunc vitae vulputate. Maecenas in elit tincidunt, commodo justo at, sodales dolor. Nullam nec purus convallis massa pretium maximus et ac elit. Integer auctor in sapien at aliquam. Duis non lorem arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer ultrices leo convallis mollis molestie. Mauris porta tellus sapien, ut laoreet nisl tempus eu. Curabitur consectetur porta volutpat.</br></br>
+
+	Quisque gravida nunc vitae nisi dictum fermentum. Suspendisse non aliquet leo, eu fermentum tellus. Quisque eget lectus tincidunt, dignissim diam eu, tempus magna. Cras urna lectus, accumsan eu erat eget, ultrices eleifend risus. Fusce consectetur ligula sed sapien convallis laoreet. Nulla imperdiet ligula eu ultricies sodales. Quisque et pretium mauris. Etiam sed nunc in mi convallis dapibus. Fusce sit amet vulputate lacus. Maecenas imperdiet turpis eget vehicula varius. Praesent at molestie neque. Donec bibendum, sem sit amet bibendum dictum, nibh lectus venenatis neque, eget imperdiet dui sapien nec nisi.</p>
+
+
+			<div id="carousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>
+			 
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+			      <img src="img/pic1.jpg" alt="...">
+			    </div>
+			    <div class="item">
+			      <img src="img/pic2.jpg" alt="...">
+			    </div>
+			    <div class="item">
+			      <img src="img/pic3.jpg" alt="...">
+			    </div>
+			  </div>
+			 
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div> <!-- Carousel -->
+		</div>
+	</div>
+
+	<div class="orange" id="blog">
+		<div class="container">
+			<h1 class="text-center">Most Recent Blog Post</h1><br>
+			<img class="img-responsive" src="img/blog_pic.jpg">
+			<hr>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p><br>
+			<p class="text-center"><a href="blog.html">more posts &rarr;</a></p>
+		</div>
+	</div>
+
+	<div class="seafoam" id="faq">
+		<div class="container">
+			<h1 class="text-center">Top 3 FAQ's</h1><br>
+
+			<div class="question">
+				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h2>
+				<hr>
+				<p class="answer">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+			</div>
+
+			<div class="question">
+				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h2>
+				<hr>
+				<p class="answer">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+			</div>
+
+			<div class="question">
+				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h2>
+				<hr>
+				<p class="answer">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+			</div>
+
+			<p class="text-center"><a href="faq.html">more FAQ's &rarr;</a></p>
+		</div>
+	</div>
+
+	<div class="orange" id="contact">
+		<div class="container">
+			<h1>Contact Us</h1>
+
+			<div class="row">
+				<div class="col-md-6">
+					<form role="form" id="contact" method="post" action="email.php">
+					  <div class="form-group">
+					    <input type="name" class="form-control" name="name" id="name" placeholder="Name" required>
+					  </div>
+					  <div class="form-group">
+					    <input type="email" class="form-control" name="email" id="subject" placeholder="Email" required>
+					  </div>
+					  <div class="form-group">
+					    <input type="edit" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+					  </div>
+					  <div class="form-group">
+					    <textarea class="form-control" rows="3" name="message" id="message" placeholder="Type your message here..." required maxlength="500"></textarea>
+					  </div>
+
+					  <button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+
+				<div class="col-md-6">
+					<div id="map-container"></div>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-md-12">
+
+					<div id="find" class="text-center">
+						<input type="edit" placeholder="Location" id="loc">
+						<button onclick="getWeather();">Find</button>
+					</div>
+
+					<div id="found">
+						<div class="row">
+							<div class="col-xs-6 right">
+								<p id="icon"></p>
+							</div>
+							<div class="col-xs-6 left">
+								<p><span id="location"></span></p>
+								<p><span id="cond"></span> &amp; <span id="temp"></span>&deg;</p>
+								<p><a href="javascript:showSearch();">&larr; change location</a></p>
+							</div>
+						</div>
+					</div>
+
+					<div id="error" class="text-center">
+						<p>Location not found!</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+      <div class="container">
+        <p class="text-center" id="my-foot">My App <i class="fa fa-heart red"></i> 2014<br><a href="http://zumh.org"><img src="img/created_by.png" id="logo"></a></p>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/codes.js"></script>
+	<script src="js/weather.js"></script>
+
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script>    
+ 
+      function init_map() {
+        var var_location = new google.maps.LatLng(45.430817,12.331516);
+ 
+        var var_mapoptions = {
+          center: var_location,
+          zoom: 14
+        };
+ 
+        var var_marker = new google.maps.Marker({
+            position: var_location,
+            map: var_map,
+            title:"Venice"});
+ 
+        var var_map = new google.maps.Map(document.getElementById("map-container"),
+            var_mapoptions);
+ 
+        var_marker.setMap(var_map);    
+ 
+      }
+ 
+      google.maps.event.addDomListener(window, 'load', init_map);
+ 
+    </script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+	    $('.carousel').carousel({
+	        interval: 5000 //changes the speed
+	    })
+    </script>
+</body>
+</html>

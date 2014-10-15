@@ -1,0 +1,259 @@
+.wide {
+  width:100%;
+  height:350px;
+  background-image:url('../img/header.jpg');
+  background-size:cover;
+  position: relative;
+}
+
+.wide img {
+  width:100%;
+}
+
+.link {
+  color:#fff;
+  font-weight:800;
+  font-size:14pt;
+  padding:25px;
+  text-align:center;
+}
+
+.line {
+  padding-top:20px;
+  white-space:no-wrap;
+  overflow:hidden;
+  text-align:center;
+}
+
+a:hover {  
+  border-bottom: 1px dotted white;
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.Absolute-Center {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.seafoam {
+  background-color: #00ffcc;
+}
+
+.orange {
+  background-color: #ff4d00;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.navbar-inverse{
+  background-color: rgba(34,34,34, 0.5);
+  border-color: rgba(8,8,8, 0.5);
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar { 
+  border: none;
+}
+
+#page-wrap { width: 60%; margin: 80px auto; position: relative; min-height: 500px;}
+
+@media(min-width: 992px){
+  #mockup { position: absolute; top: 0; left: 50%; margin-left: -125px; height: 500px;}
+}
+
+#l, #r { width: 49%; }
+#l { float: left; }
+#r { float: right; }
+
+#l:before, #r:before { content: ""; width: 125px; height: 500px; }
+
+#l:before { float: right; }
+#r:before { float: left; }
+
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+margin-bottom: 50px;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+#home > div > div > a > img {
+  padding-bottom: 30px;
+}
+
+#home > div > div > a > img#ri {
+  padding-left: 5px;
+}
+
+#home > div > div > a > img#le {
+  padding-right: 5px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 110px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 110px;
+  background-color: #00ffcc;
+}
+
+#map-container {
+  width: 100%;
+  height: 500px;
+}
+
+.red {
+  color: #FF6E6E;
+}
+
+#logo {
+  height: 70px;
+}
+
+body > div.footer > div > p > a:hover {
+  border-bottom: none;
+}
+
+#ri, #le {
+  padding-bottom: 30px;
+}
+
+#ri { padding-left: 5px; }
+#li { padding-right: 5px; }
+
+.carousel { 
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+::selection { color: #00E1FF; }
+::-moz-selection { color: #00E1FF; }
+
+@media(max-width: 992px){
+  #contact { padding-bottom: 20px; }
+}
+
+.Center-Container {
+  position: relative;
+}
+
+#my-foot { padding-top: 10px; }
+
+#title { margin: 0 0 0; }
+
+/* 
+* idea & modified form 
+* from http://tympanus.net/codrops/2013/05/21/natural-language-form-with-custom-input-elements/ 
+*/
+#contact input,
+#contact textarea,
+#contact button {
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    font-weight: inherit;
+    line-height: inherit;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.form-group {
+  border-bottom: 1px dotted white;
+  margin-bottom: 30px;
+}
+
+/* http://stackoverflow.com/questions/17109702/remove-all-stylings-border-glow-from-textarea */
+textarea, input {
+  border: none             !important;
+  overflow: auto           !important;
+  outline: none            !important;
+
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none    !important;
+  box-shadow: none         !important;
+  resize: none             !important;
+}
+
+/* http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css */
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white !important;
+   opacity:  1 !important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white !important;
+   opacity:  1 !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    white !important;
+}
+
+#found { display: none; } 
+#error { color: white; display: none; }
+
+.wi {
+  font-size: 72px;
+}
+
+.left { text-align: left; }
+.right { text-align: right; }
+
+.question hr {
+  float: left;
+  width: 25%;
+  clear: both;
+  border-top: 1px solid black;
+}
+
+.answer { clear: both; }
+
+.seafoam a {
+  color: black;
+}
+
+.seafoam a:hover {
+  color: black;
+  border-bottom: 1px dotted black;
+  text-decoration: none;
+}
+
+.post { padding-bottom: 50px; }
